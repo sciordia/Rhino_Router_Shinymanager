@@ -1,0 +1,49 @@
+$font-family-base: 'Oxygen';
+$background-color-base: #FFF;
+
+/* CSS style for authentication module */
+
+.panel-auth {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $background-color-base;
+  opacity: 1;
+  z-index: 99997;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  //border: 0px solid #333;
+  font-family: $font-family-base;
+}
+
+.panel {
+	border: 0px solid #333 !important;
+}
+
+#auth-shinymanager-auth-head {
+	font-size: 0px;
+	font-family: $font-family-base;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 460px;
+}
+
+#auth-go_auth, #auth-msg_auth, #auth-user_id, #auth-user_pwd {
+	font-family: $font-family-base;
+	width: 360px !important;
+	margin-left: 35px !important;
+}
+
+.panel-body {
+	width: 460px;
+}
+
+.col-sm-4 offset-md-4 col-sm-offset-4 {
+	margin: 0 auto;
+}
+
+#auth-user_id-label, #auth-user_pwd-label {
+	margin-left: 35px;
+}
